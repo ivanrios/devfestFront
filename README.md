@@ -13,9 +13,8 @@ https://cloud.google.com/sdk/
 
 Configurar:
 
-  **gcloud auth login
-  
-  gcloud config set project [PROJECT]**
+**gcloud auth login
+gcloud config set project [PROJECT]**
 
 Validar config:
 
