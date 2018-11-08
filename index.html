@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Aprende</title>
+  <title>FLATTY</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -18,8 +18,8 @@
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+  crossorigin="anonymous">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -37,7 +37,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><b>FLATTY</b></a>
+        <a class="navbar-brand" href="#"><b>. FLATTY .</b></a>
       </div>
       <!--/.nav-collapse -->
     </div>
@@ -49,9 +49,9 @@
         <div class="col-lg-6">
           <h1>Make your landing page<br/>
 					look really good.</h1>
-          <form class="form-inline" role="form" action="https://us-central1-devfestcancun.cloudfunctions.net/suscriptor">
+          <form class="form-inline" role="form" method="POST" action="https://us-central1-devfestcancun.cloudfunctions.net/suscriptor">
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
             </div>
             <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
           </form>
@@ -299,7 +299,7 @@
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/php-mail-form/validate.js?x=4"></script>
   <script src="lib/easing/easing.min.js"></script>
 
   <!-- Template Main Javascript File -->
