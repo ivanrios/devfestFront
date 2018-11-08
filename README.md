@@ -12,6 +12,7 @@ Descargar el SDK de Google Cloud Platform
 https://cloud.google.com/sdk/
 
 Configurar:
+
   **gcloud auth login
   
   gcloud config set project [PROJECT]**
@@ -23,10 +24,10 @@ Validar config:
 
 Clonar el repo y abrir el branch sitioWeb
 
+
 Agregar permisos públicos de solo lectura
 
 **gsutil acl ch -u AllUsers:R gs://devfestcancun 
-
 gsutil defacl set public-read gs://devfestcancun**
 
 
