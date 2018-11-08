@@ -37,7 +37,7 @@ Clonar el repo y abrir el branch sitioWeb
 
 Agregar permisos públicos de solo lectura
 
-**gsutil acl ch -u AllUsers:R gs://devfestcancun **
+**gsutil acl ch -u AllUsers:R gs://devfestcancun**
 
 **gsutil defacl set public-read gs://devfestcancun**
 
@@ -51,6 +51,7 @@ Subir archivos (sincronización)
 Si quieres que la página responda a tu dominio, debes crear un registro CNAME en tus DNS
 
 demo.devfestcancun.com to c.storage.googleapis.com 
+
 
 
 Configurar archivo default
